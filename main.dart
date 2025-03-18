@@ -41,31 +41,44 @@ class uitask extends StatelessWidget {
             Row(
               children: [
                 Spacer(flex: 1),
+
                 Container(
+                  padding: EdgeInsets.all(8),
+
                   child: Image.asset('images_app/pasta (1).png'),
                   width: 50,
                   height: 50,
                   decoration: BoxDecoration(
-                    borderRadius: BorderRadius.all(Radius.circular(10)),
+                    borderRadius: BorderRadius.all(Radius.circular(50)),
                   ),
                 ),
+
                 Spacer(flex: 1),
                 Container(
                   child: Image.asset('images_app/butter.png'),
                   width: 50,
                   height: 50,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.all(Radius.circular(50)),
+                  ),
                 ),
                 Spacer(flex: 1),
                 Container(
                   child: Image.asset('images_app/garlic (1).png'),
                   width: 50,
                   height: 50,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.all(Radius.circular(50)),
+                  ),
                 ),
                 Spacer(flex: 1),
                 Container(
                   child: Image.asset('images_app/chicken.png'),
                   width: 50,
                   height: 50,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.all(Radius.circular(50)),
+                  ),
                 ),
                 Spacer(flex: 1),
               ],
@@ -78,7 +91,7 @@ class uitask extends StatelessWidget {
                   width: 50,
                   height: 50,
                   decoration: BoxDecoration(
-                    borderRadius: BorderRadius.all(Radius.circular(10)),
+                    borderRadius: BorderRadius.all(Radius.circular(16)),
                   ),
                 ),
                 Spacer(flex: 1),
@@ -86,18 +99,27 @@ class uitask extends StatelessWidget {
                   child: Image.asset('images_app/butter.png'),
                   width: 50,
                   height: 50,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.all(Radius.circular(50)),
+                  ),
                 ),
                 Spacer(flex: 1),
                 Container(
                   child: Image.asset('images_app/garlic (1).png'),
                   width: 50,
                   height: 50,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.all(Radius.circular(50)),
+                  ),
                 ),
                 Spacer(flex: 1),
                 Container(
                   child: Image.asset('images_app/chicken.png'),
                   width: 50,
                   height: 50,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.all(Radius.circular(50)),
+                  ),
                 ),
                 Spacer(flex: 1),
               ],
